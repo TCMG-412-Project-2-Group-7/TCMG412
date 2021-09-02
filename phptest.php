@@ -1,6 +1,6 @@
 <?php
 // Create connection
-$conn = new mysqli('localhost', 'root', '');
+$conn = new mysqli('127.0.0.1', 'root', '');
 
 // Check connection
 if ($conn->connect_error) {
